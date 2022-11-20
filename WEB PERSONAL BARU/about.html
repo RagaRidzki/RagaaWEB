@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Web - Raga</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/bbb4e0156b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="portofolio.html">PORTOFOLIO</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>About Me</h1>
+    </section>
+<!-- -----------About Me Content----------- -->
+<section class="about-me">
+    <div class="row">
+        <div class="aboutme-col">
+            <h1>Raga Ridzki Panuntun</h1>
+            <p>Saya saat ini seorang pelajar di SMK Wikrama Bogor di
+                jurusan pengembangan perangkat lunak dan gim.
+                Saya lahir dan tinggal di Tajur, saya berminat sebagai
+                programmer karena itu adalah passion saya, Saya lahir di Bogor Tajur tanggal 12 september alamat rumah saya berada di jalan raya Tajur gg Babadak, hobi saya adalah menonton film
+            </p>
+            <h1>Jenjang Sekolah</h1>
+            <p>Masih Bersekolah di: SMK Wikrama Bogor<br>2019-2022: SMPN Negeri 3 Bogor<br>2013-2019: SDN Tajur 1</p>
+            <h1>Biodata</h1>
+            <p>Nama:Raga Ridzki Panuntun<br>NIS:12209353<br>Tempat/Tgl/Lahir:Bogor, 12 September 2006<br>Jenis Kelamin:Laki-Laki<br>Agama:Islam<br>Alamat:Bogor Tajur Gg. Babadak</p>
+        </div>
+        <div class="aboutme-col">
+            <img src="img/Me.jpg">
+        </div>
+    </div>
+
+</section>
+
+
+<!-- ----------- Footer ----------- -->
+<section class="footer">
+    <h4>About Me</h4>
+    <div class="icons">
+        <a href="https://www.facebook.com/raga.ridzky.39?mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/AraijiGara?t=HIIny-Z_Y3l-Li9LDToyTg&s=09" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/rggaaar/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <i class="fa fa-linkedin"></i></a>
+        <p>Copyright &copy; Raga Ridzki Panuntun</p>              
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<!-- Java script for toggle menu -->
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right = "0"
+    }
+    function hidemenu(){
+        navlinks.style.right = "-200px"
+    }
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Web - Raga</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/bbb4e0156b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="portofolio.html">PORTOFOLIO</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>My Portofolio & Sertificate</h1>
+    </section>
+<!-- -----------Portofolio----------- -->
+<section class="port">
+    <h1>My Portofolio</h1>
+    <p>Kumpulan beberapa projek saya</p>
+
+    <div class="row">
+        <div class="port-col">
+            <img src="img/PORTOFOLIO1.jpg">
+            <div class="layer">
+                <h3>WEB SCHOOL</h3>
+            </div>
+        </div>
+        <div class="port-col">
+            <img src="img/coming-soon.webp">
+            <div class="layer">
+                <h3>Coming Soon</h3>
+            </div>
+        </div>
+        <div class="port-col">
+            <img src="img/coming-soon.webp">
+            <div class="layer">
+                <h3>Coming Soon</h3>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+<!-- ----------MY SERTIFICATE---------- -->
+<section class="sertif">
+    <h1>My Sertificate</h1>
+    <p>Kumpulan beberapa sertifikat saya</p>
+    <div class="row">
+        <div class="sertif-col">
+            <img src="img/sertifikat progate.png">
+            <h3>Sertifikat Command Line</h3>
+            <p>Sertifikat Command Line ini saya dapatkan dari mengerjakan task yang berada di progate.com</p>
+        </div>
+        <div class="sertif-col">
+            <img src="img/port2.jpg">
+            <h3>Sertifikat GIT</h3>
+            <p>Sertifikat GIT ini saya dapatkan dari mengerjakan task yang berada di progate.com</p>
+        </div>
+        <div class="sertif-col">
+            <img src="img/coming-soon.webp">
+            <h3>Coming Soon</h3>
+            <p></p>
+        </div>
+    </div>
+    <!-- -----------MY SERTIFICATE 2---------   - -->
+    
+</section>
+
+<!-- ----------- Footer ----------- -->
+<section class="footer">
+    <h4>About Me</h4>
+    <div class="icons">
+        <a href="https://www.facebook.com/raga.ridzky.39?mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/AraijiGara?t=HIIny-Z_Y3l-Li9LDToyTg&s=09" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/rggaaar/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <i class="fa fa-linkedin"></i></a>
+        <p>Copyright &copy; Raga Ridzki Panuntun</p>              
+    </div>
+
+</section>
+
+<!-- Java script for toggle menu -->
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right = "0"
+    }
+    function hidemenu(){
+        navlinks.style.right = "-200px"
+    }
+
+</script>
+
+</body>
+</html>
